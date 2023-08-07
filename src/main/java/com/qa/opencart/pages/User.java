@@ -7,8 +7,12 @@ public class User {
 		int j = 30;
 	}
 	
-	public void m2() {
+
+
+	public int m2() {
 		String o = "Some thing ";
+		return 123;
 	}
+
 
 }
