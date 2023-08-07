@@ -1,10 +1,6 @@
 package featute;
 
-public class Lp {
+public class feature1 {
 
-	public static void main(String[] args) {
-		int i =  20;
-
-	}
-
+	int p = 20;
 }
