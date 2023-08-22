@@ -19,7 +19,7 @@ public class LoginPage {
 	private By loginBtn = By.xpath("//input[@value='Login']");
 	private By forgotPwdLink = By.linkText("Forgotten Password");
 	private By registerLink = By.linkText("Register");
-	private By mangoliLink = By.linkText("mangoliLink");
+	
 
 
 	// 2. public Page Constructor
