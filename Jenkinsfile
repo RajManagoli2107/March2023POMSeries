@@ -46,9 +46,9 @@ pipeline{
 			}
 		}
 
-		stage("Run regression test cases on QA"){
+		stage("Run regression test cases on Stage"){
 			steps{
-				echo("run test cases on QA")
+				echo("run test cases on stage")
 			}
 		}
 
