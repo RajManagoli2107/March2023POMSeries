@@ -138,12 +138,12 @@ public class DriverFactory {
 	public static String getScreenshot(String methodName) {
 		File srcFile = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
 		String path = System.getProperty("user.dir")+"/screenshot/"+methodName+"_"+System.currentTimeMillis()+".png";
-//		File destination = new File(path);
-//		try {
-//			FileHandler.copy(srcFile, destination);
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
+		File destination = new File(path);
+		try {
+			FileHandler.copy(srcFile, destination);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
 		return path;
 	}
